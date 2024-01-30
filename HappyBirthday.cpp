@@ -86,7 +86,8 @@ int main() {
     printWithTypingEffect(L"Đây là lời chúc từ ", 100);  SET_COLOR(14);     
     wcout << name << L": " << endl;
     SET_COLOR(5);
-    wcout << L"h" << (message + L"\n\n");
+    printWithTypingEffect(message, 100);
+    wcout << endl;
     wcout << "MUSIC!!!!" << endl;
 
     playHappyBirthdayTune();
