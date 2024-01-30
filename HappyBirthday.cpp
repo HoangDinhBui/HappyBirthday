@@ -94,7 +94,6 @@ int main() {
     printWithTypingEffect(L"\nHappy Birthday Mặt trời xinh đẹp!!!\n", 100);
     SET_COLOR(9);
     printWithTypingEffect(L"\n\nCảm ơn cậu đã dành thời gian để đọc những lời chúc của tớ!\n", 100);
-    printWithTypingEffect(L"\nTuy hong quá hoàn hảo nhưng mà đây là tấm lòng của , mong XQ đón nhận zui zẻ neee!!!\n", 100);
     printWithTypingEffect(L"Chúc ", 100); SET_COLOR(14); printWithTypingEffect(birthdayName, 100); SET_COLOR(9); 
     printWithTypingEffect(L" có một ngày sinh nhật thật zui zẻe!!!\n", 100);
 
